@@ -4,3 +4,17 @@
   align-items: center;
   justify-content: center;
 }
+
+.wrapper-time {}
+
+.time {}
+
+.history {}
+
+.term {
+  margin-top: 40px;
+}
+
+.button-term {
+  cursor: pointer;
+}

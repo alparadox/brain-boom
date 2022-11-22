@@ -4,8 +4,11 @@
   </div>
 
   <div class="wrapper-count">
-    <div class="history">hohohoho</div>
+    <div class="history">{{previousAnswer}}</div>
+
     <div class="term">{{exercise}}</div>
-    <button type="button" (click)="getMathExercise()">Далее <span>&#8594;</span></button>
+    <button type="button"
+            class="button-term"
+            (click)="goNextExercise()">Далее <span>&#8594;</span></button>
   </div>
 </div>
