@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { MainPageComponent } from './main-page/main-page.component';
 import {RouterModule, Routes} from "@angular/router";
 import { CountComponent } from './count/count.component';
+import {TuiButtonModule} from "@taiga-ui/core";
 
 const routes: Routes = [
   { path: '', component: MainPageComponent },
@@ -16,7 +17,8 @@ const routes: Routes = [
   ],
   imports: [
     CommonModule,
-    RouterModule.forChild(routes)
+    RouterModule.forChild(routes),
+    TuiButtonModule,
   ]
 })
 export class CountingModule { }
