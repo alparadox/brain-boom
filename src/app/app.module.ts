@@ -19,6 +19,7 @@ import { ListComponent } from './list/list.component';
     TuiRootModule,
     TuiDialogModule,
     TuiAlertModule,
+    TuiButtonModule,
 ],
   providers: [{provide: TUI_SANITIZER, useClass: NgDompurifySanitizer}],
   bootstrap: [AppComponent]

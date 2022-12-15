@@ -1,8 +1,4 @@
-<div>
-  <div class="wrapper-time">
-    <div class="time">hohohoho</div>
-  </div>
-
+<div class="container">
   <div class="wrapper-count">
     <div class="history">{{previousAnswer}}</div>
 
@@ -12,5 +8,7 @@
             tuiButton
             appearance="primary"
             (click)="goNextExercise()">Далее <span>&#8594;</span></button>
+
+    <div class="time">{{time |  date:'00:ss'}}</div>
   </div>
 </div>
